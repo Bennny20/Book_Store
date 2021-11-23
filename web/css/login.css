@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 1, 2021, 5:14:39 PM
+    Author     : Admin
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 110%;
+    margin-top: 10%;
+    margin-left: 25%;
+    line-height: 170%;
+    background-color: #FCF0CF;
+    border: 30px solid #B16E4B;
+}
+
+h1 {
+    padding-top: 2%;
+    margin-bottom: 2%;
+    font-size: 200%;
+    color: #ebb74f;
+}
+
+input {
+    font-size: 16px;
+}
+
+a:hover{
+    color: #ebb74f;
+}
+
+input[type=text]:focus{
+    background-color: #D7D7D9;
+}
+
+input[type=password]:focus{
+    background-color: #D7D7D9;
+}
+
+input[type=submit]:hover{
+    background-color: #B16E4B;
+    color: white;
+}
+
+
+
+
+
+

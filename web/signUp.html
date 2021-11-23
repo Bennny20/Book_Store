@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/signUp.css"/>
+    </head>
+    <body>
+        <form action="SignUpProcess" method="POST"><br/>
+            <h1>Create new account</h1>
+            Username* <input type="text" name="txtUsername" value="" required placeholder="e.g. 6 - 30 chars"/><br/>
+            Password* <input type="password" name="txtPassword" value="" required placeholder="e.g. 6 - 20 chars"/><br/>
+            Confirm* <input type="password" name="txtConfirm" value="" required/><br/>
+            Full name* <input type="text" name="txtFullname" value="" required placeholder="e.g. 2 - 50 chars"/><br/>
+            <input type="submit" value="Sign Up" name="btAction" />
+            <input type="reset" value="Reset" /><br/>
+            Already have Account? <a href="LoginPage">Click here!</a>
+        </form>
+    </body>
+</html>
